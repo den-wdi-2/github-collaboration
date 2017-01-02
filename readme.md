@@ -95,15 +95,17 @@ There are two main scenarios for collaborating on coding projects:
 
 ## Practice: Create and resolve a merge conflict
 
-What happens if two people on a team change the same file?  Merge conflicts (often)!  That might sound like a big deal, but it's easy to handle with your team.  Let's practice resolving a merge conflict.
+What happens if two people on a team change the same file?  Merge conflicts (often)!  That might sound like a big deal, but it's easy to handle with your team.  Let's practice resolving a merge conflict.  
 
 
-1. Pair up. Have one partner create a brand new repository on GitHub and [add your partner as a collaborator](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
-2. The person who created the GitHub repository should create a new project directory locally, generate one  `index.html` file, create a `readme.md` with some content, and push the new app to the remote repository.
-3. The collaborator should then clone this repository.
+1. Pair up. Pick one person to be Partner1 and one to be Partner2 throughout this exercise.
+2. Have Partner1 create a brand new repository on GitHub.
+2. Partner1 should now create a new project directory locally, generate one  `index.html` file, create a `readme.md` with some content, and push the new app to the remote repository.
+4. Partner1 should [add Partner2 as a collaborator](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/)
+3. Partner2 (the collaborator) should then clone this repository.
 4. Each person is about to change the README completely, and add 2 elements to `index.html`.  FIRST! Each person should start a new feature branch.  (Name them different things, like `better-readme` and `best-readme`.) You can check that you have all of the branches with `git branch`-that will print all of the branch names.
-5. Now, have the original repo creator commit and push the work to GitHub on *their* branch. (E.g., `git push origin better-readme`.)  Open a pull request from the new branch to the master branch.
-6. The collaborator should commit their changes and push the work to GitHub on *their* branch. (E.g., `git push origin best-readme`.) Open a pull request from the new branch to the master branch.
+5. Now, have Partner1 (repo creator) commit and push the work to GitHub on *their* branch. (E.g., `git push origin better-readme`.)  Open a pull request from the new branch to the master branch.
+6. Partner2 (the collaborator) should commit their changes and push the work to GitHub on *their* branch. (E.g., `git push origin best-readme`.) Open a pull request from the new branch to the master branch.
 7. Choose a pull request to accept first. It shouldn't have any merge conflicts with the master branch, so you can just merge it in on GitHub.
 8. The second pull request should be a little more interesting. We hope that we have created at least one merge conflict. [Resolve the merge conflict locally](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/github-collaboration-workflow.md#resolving-merge-conflicts-locally) on one of your computers and push the fixed version to GitHub.  
 9. Feel free to delete this practice repository from your local machine and from GitHub. This workflow was intentionally sloppy and I'm hoping that you learned a little bit of what *not* to do.
