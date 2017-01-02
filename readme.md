@@ -1,11 +1,15 @@
 <!--
-Creator:
+Creator: Brianna Veenstra
 Location: SF
 -->
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--1:30 5 minutes -->
+
 # GitHub Collaboration
+
+<!-- Hook: So now that we have the basics of Git collaboration down, let's talk about the workflow we will be using for Project 3, which is a good approximation of the workflow you will have on a development team.  -->
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -22,16 +26,18 @@ Location: SF
 *After this workshop, developers will be able to:*
 
 
-- Create their own git branches and explain a pattern for using branches to develop a full application.
-- Make a new repository and add another developer as a collaborator.
-- Resolve a merge conflict.
+- **Create** their own git branches and explain a pattern for using branches to develop a full application.
+- **Make** a new repository and add another developer as a collaborator.
+- **Resolve** a merge conflict.
 
 ### Where should we be now?
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
-* Use git to stage and commit changes locally.
-* Explain what the following terms mean for GitHub: pull, push, fork, clone, pull request.
+* **Use** git to stage and commit changes locally.
+* **Explain** what the following terms mean for GitHub: pull, push, fork, clone, pull request.
+
+<!--1:35 5 minutes -->
 
 ## Branches
 
@@ -43,13 +49,7 @@ What makes a branch special in git, is that we're always on a specific branch, a
 
 Terminology: HEAD is simply a reference to the current or most recent commit!
 
-
 <img src="https://www.atlassian.com/git/images/tutorials/collaborating/using-branches/01.svg" width="70%">
-
-
-
-
-
 
 ###Q. Why is branching an important part of git?
 
@@ -64,6 +64,8 @@ into master.
 interfering. When a feature is complete, it can be merged back into master.
 3. To allow easy bug fixes on a stable version while features are being developed.
 
+<!--1:40 5 minutes -->
+
 ## `git fetch`, `git merge`, and `git pull`
 
 Fetching, merging, and pulling are related commands that you will frequently use to update your local repository to include your collaborator's work.
@@ -76,18 +78,20 @@ Fetching, merging, and pulling are related commands that you will frequently use
 
 ![image](https://cloud.githubusercontent.com/assets/6520345/15020568/663aa804-11d7-11e6-83f6-774e43bc2ea6.png)
 
+<!--1:45 5 minutes -->
+
 ## Collaboration Workflows
 
 There are two main scenarios for collaborating on coding projects:
 
-1. You **fork** another developer's project and make pull requests from *your remote fork* to the *project's remote*.
+1. You **fork** another developer's project and make pull requests from *your remote fork* to the *project's remote*.  We introduced this workflow earlier, and it is very common in open-source projects, but we will NOT use this workflow for this project.
 2. Another developer makes you a **collaborator** on a project they own, giving you the ability to make pull requests directly from the project's *remote feature branches* to the project's *remote master*. (Note that as a collaborator on a project, you also have the ability to push directly to the master branch, which you should NEVER do.)
-
 
 ![github-collab-diagram](https://cloud.githubusercontent.com/assets/7833470/12072895/69abd404-b0b1-11e5-8d8c-4ff54c13b0a0.png)
 
-
 **For this project, you should be collaborators!**
+
+<!--1:50 50 minutes -->
 
 ## Practice: Create and resolve a merge conflict
 
@@ -104,6 +108,7 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 8. The second pull request should be a little more interesting. We hope that we have created at least one merge conflict. [Resolve the merge conflict locally](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/github-collaboration-workflow.md#resolving-merge-conflicts-locally) on one of your computers and push the fixed version to GitHub.  
 9. Feel free to delete this practice repository from your local machine and from GitHub. This workflow was intentionally sloppy and I'm hoping that you learned a little bit of what *not* to do.
 
+<!--2:40 5 minutes -->
 
 ## Talking Points for Teams
 
@@ -117,6 +122,8 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 
 5. When merge conflicts arise, it's up to the individual contributor to reseolve them. But work with your team! Follow the steps for [resolving merge conflicts locally](#resolving-merge-conflicts-locally), make sure to delete any merge junk from your code, and then push your cleaned-up branch to GitHub.  
 
+
+<!--2:45 5 minutes -->
 
 ## Resources
 
