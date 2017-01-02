@@ -43,7 +43,7 @@ Location: SF
 
 In Git, branches are a part of your everyday development process. When you want to add a new feature or fix a bug — no matter how big or how small — you spawn a new branch to encapsulate your changes. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
 
-Branches are incredibly lightweight "movable pointers" that help us as developers make experimental changes! A branch in git is just a label or pointer to a particular commit in a repository, along with all of it's history (parent commits).
+A branch in git is just a label or pointer to a particular commit in a repository, along with all of its history (parent commits).
 
 What makes a branch special in git, is that we're always on a specific branch, and when we commit, the current branch HEAD moves forward to the new commit. Another way to say that is the HEAD always stays at the tip of the branch.
 
@@ -84,7 +84,7 @@ Fetching, merging, and pulling are related commands that you will frequently use
 
 There are two main scenarios for collaborating on coding projects:
 
-1. You **fork** another developer's project and make pull requests from *your remote fork* to the *project's remote*.  We introduced this workflow earlier, and it is very common in open-source projects, but we will NOT use this workflow for this project.
+1. You **fork** another developer's project and make pull requests from *your remote fork* to the *project's remote*.  We will review this workflow later, and it is very common in open-source projects, but we will NOT use this workflow for this project.
 2. Another developer makes you a **collaborator** on a project they own, giving you the ability to make pull requests directly from the project's *remote feature branches* to the project's *remote master*. (Note that as a collaborator on a project, you also have the ability to push directly to the master branch, which you should NEVER do.)
 
 ![github-collab-diagram](https://cloud.githubusercontent.com/assets/7833470/12072895/69abd404-b0b1-11e5-8d8c-4ff54c13b0a0.png)
@@ -116,12 +116,11 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 
 2. Make very descriptive commit messages! The team members who are reading them should be able to tell at a glance what you were working on.
 
-3. Clearly delineate who's working on what, and keep an updated task list. (Trello is great for this!) Things will go much more smoothly if team members work on features that don't overlap. This is especially important if you're not all working in the physical location. It's not uncommon for wires to get crossed!
+3. Clearly delineate who's working on what, and keep an updated task list. (Trello is great for this!) Things will go much more smoothly if team members work on features that don't overlap. This is especially important if you're not all working in the same physical location. It's quite common for wires to get crossed!
 
 4. Don't have multiple team members working on the same feature branch at one time, on different computers. If you're pair programming with someone, only use one computer to avoid having differing code on the same branch. 
 
-5. When merge conflicts arise, it's up to the individual contributor to reseolve them. But work with your team! Follow the steps for [resolving merge conflicts locally](#resolving-merge-conflicts-locally), make sure to delete any merge junk from your code, and then push your cleaned-up branch to GitHub.  
-
+5. When merge conflicts arise, it's up to the individual contributor to resolve them. But work with your team! Follow the steps for [resolving merge conflicts locally](#resolving-merge-conflicts-locally), make sure to delete any merge junk from your code, and then push your cleaned-up branch to GitHub.  
 
 <!--2:45 5 minutes -->
 
