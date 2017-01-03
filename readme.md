@@ -106,8 +106,10 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 4. Each person is about to change the README completely, and add 2 elements to `index.html`.  FIRST! Each person should start a new feature branch.  (Name them different things, like `better-readme` and `best-readme`.) You can check that you have all of the branches with `git branch`-that will print all of the branch names.
 5. Now, have Partner1 (repo creator) commit and push the work to GitHub on *their* branch. (E.g., `git push origin better-readme`.)  Open a pull request from the new branch to the master branch.
 6. Partner2 (the collaborator) should commit their changes and push the work to GitHub on *their* branch. (E.g., `git push origin best-readme`.) Open a pull request from the new branch to the master branch.
-7. Choose a pull request to accept first. It shouldn't have any merge conflicts with the master branch, so you can just merge it in on GitHub.
-8. The second pull request should be a little more interesting. We hope that we have created at least one merge conflict. [Resolve the merge conflict locally](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/github-collaboration-workflow.md#resolving-merge-conflicts-locally) on one of your computers and push the fixed version to GitHub.  
+7. Accept Partner1 (repo creator)'s pull request first. It shouldn't have any merge conflicts with the master branch, so you can just merge it in on GitHub.
+8. The second pull request should be a little more interesting. We hope that we have created at least one merge conflict.  Partner2 (the collaborator) should get the latest code by `pull`ing the latest code from `origin master` (with Partner1's recently pulled-in changes).  Then they should start at step 3 of [this guide for resolving the merge conflict locally](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/github-collaboration-workflow.md#resolving-merge-conflicts-locally)
+9. Partner2 should push the fixed version to GitHub.  
+10. Finally, go back to the GitHub repository and accept Partner2's pull request (there should not be any merge conflicts any more).
 9. Feel free to delete this practice repository from your local machine and from GitHub. This workflow was intentionally sloppy and I'm hoping that you learned a little bit of what *not* to do.
 
 <!--2:40 5 minutes -->
