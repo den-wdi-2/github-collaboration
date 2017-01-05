@@ -5,6 +5,8 @@ Location: SF
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--Actually 11:05 -->
+
 <!--1:30 5 minutes -->
 
 # GitHub Collaboration
@@ -64,6 +66,8 @@ into master.
 interfering. When a feature is complete, it can be merged back into master.
 3. To allow easy bug fixes on a stable version while features are being developed.
 
+<!--Actually 11:12-->
+
 <!--1:40 5 minutes -->
 
 ## `git fetch`, `git merge`, and `git pull`
@@ -91,6 +95,10 @@ There are two main scenarios for collaborating on coding projects:
 
 **For this project, you should be collaborators!**
 
+<!--Actually 11:28 when devs reading -->
+<!--11:37 to get started on lab -->
+
+
 <!--1:50 50 minutes -->
 
 ## Practice: Create and resolve a merge conflict
@@ -111,6 +119,8 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 9. Partner2 should push the fixed version to GitHub.  
 10. Finally, go back to the GitHub repository and accept Partner2's pull request (there should not be any merge conflicts any more).
 9. Feel free to delete this practice repository from your local machine and from GitHub. This workflow was intentionally sloppy and I'm hoping that you learned a little bit of what *not* to do.
+
+<!--Actually 12:21 -->
 
 <!--2:40 5 minutes -->
 
