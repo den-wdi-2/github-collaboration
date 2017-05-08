@@ -5,9 +5,9 @@ Location: SF
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-<!--Actually 11:05 -->
+<!--Actually 11:05 WDI2-->
 
-<!--1:30 5 minutes -->
+<!--11:15 5 minutes -->
 
 # GitHub Collaboration
 
@@ -39,7 +39,7 @@ Location: SF
 * **Use** git to stage and commit changes locally.
 * **Explain** what the following terms mean for GitHub: pull, push, fork, clone, pull request.
 
-<!--1:35 5 minutes -->
+<!--11:20 5 minutes -->
 
 ## Branches
 
@@ -53,22 +53,21 @@ Terminology: HEAD is simply a reference to the current or most recent commit!
 
 <img src="https://www.atlassian.com/git/images/tutorials/collaborating/using-branches/01.svg" width="70%">
 
-###Q. Why is branching an important part of git?
-
+### Q. Why is branching an important part of git?
 
 > A. Branches are useful for many reasons, but some of the most common ones:
 
-> 1. To allow experimentation. By switching to a new branch, we can experiment,
-and if the experiment fails, we can delete it and easily switch back to master
-(or another branch of our choice). If it succeeds, we can merge those changes
-into master.
-2. To allow work to proceed on multiple features (or by multiple people) without
-interfering. When a feature is complete, it can be merged back into master.
-3. To allow easy bug fixes on a stable version while features are being developed.
+ 1. To allow experimentation. By switching to a new branch, we can experiment,
+ and if the experiment fails, we can delete it and easily switch back to master
+ (or another branch of our choice). If it succeeds, we can merge those changes
+ into master.
+ 2. To allow work to proceed on multiple features (or by multiple people) without
+ interfering. When a feature is complete, it can be merged back into master.
+ 3. To allow easy bug fixes on a stable version while features are being developed.
 
 <!--Actually 11:12-->
 
-<!--1:40 5 minutes -->
+<!--11:25 5 minutes -->
 
 ## `git fetch`, `git merge`, and `git pull`
 
@@ -82,7 +81,7 @@ Fetching, merging, and pulling are related commands that you will frequently use
 
 ![image](https://cloud.githubusercontent.com/assets/6520345/15020568/663aa804-11d7-11e6-83f6-774e43bc2ea6.png)
 
-<!--1:45 5 minutes -->
+<!--11:30 5 minutes -->
 
 ## Collaboration Workflows
 
@@ -98,8 +97,7 @@ There are two main scenarios for collaborating on coding projects:
 <!--Actually 11:28 when devs reading -->
 <!--11:37 to get started on lab -->
 
-
-<!--1:50 50 minutes -->
+<!--11:35 45 minutes -->
 
 ## Practice: Create and resolve a merge conflict
 
@@ -122,7 +120,7 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 
 <!--Actually 12:21 -->
 
-<!--2:40 5 minutes -->
+<!--11:20 5 minutes -->
 
 ## Talking Points for Teams
 
@@ -136,7 +134,7 @@ What happens if two people on a team change the same file?  Merge conflicts (oft
 
 5. When merge conflicts arise, it's up to the individual contributor to resolve them. But work with your team! Follow the steps for [resolving merge conflicts locally](#resolving-merge-conflicts-locally), make sure to delete any merge junk from your code, and then push your cleaned-up branch to GitHub.  
 
-<!--2:45 5 minutes -->
+<!--11:25 5 minutes -->
 
 ## Resources
 
